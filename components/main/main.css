@@ -1,0 +1,63 @@
+.Main {
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 3.5% 96.5% 10%;
+}
+
+.Main_Container {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Main_Mensages {
+    height: 88%;
+    display: flex;
+    flex-direction: start;
+}
+
+.Main_Input {
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.Main_Input input {
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #484a58;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.Main_Mensage li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.Main_Mensage li h1 {
+    font-size: 15px
+}
+
+.Main_Mensage li p {
+    font-size: 15px
+}
+
+.Main_Header {
+    display: flex;
+    background: #25252a;
+    height: 100%;
+    border-bottom: 2px solid rgb(23, 23, 23);
+    align-items: center;
+    font-size: 8px;
+    padding: 10px;
+}
+
